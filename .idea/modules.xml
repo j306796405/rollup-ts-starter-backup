@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/rollupTsKit.iml" filepath="$PROJECT_DIR$/.idea/rollupTsKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rollup-ts-kit/.idea/rollupTsKit.iml" filepath="$PROJECT_DIR$/../rollup-ts-kit/.idea/rollupTsKit.iml" />
     </modules>
   </component>
 </project>
