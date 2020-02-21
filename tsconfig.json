@@ -50,5 +50,6 @@
   // 入口文件
   "include": [
     "src/**/*"
-  ]
+  ],
+  "exclude": ["node_modules", "**/__tests__/*"]
 }
