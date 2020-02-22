@@ -22,7 +22,9 @@
   "scripts": {
     "rm": "rimraf packages/**/dist",
     "clean": "rimraf node_modules",
-    "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production"
+    "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
   },
   "keywords": [],
   "author": "",
