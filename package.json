@@ -7,10 +7,15 @@
     "tslib": "^1.9.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "@rollup/plugin-alias": "^2.2.0",
     "@rollup/plugin-json": "^4.0.0",
     "@rollup/plugin-replace": "^2.2.1",
     "@rollup/plugin-typescript": "^2.0.1",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "husky": "^4.2.3",
     "prettier": "^1.19.1",
     "rollup": "^1.27.13",
     "rollup-plugin-terser": "^5.1.1",
@@ -24,7 +29,8 @@
     "clean": "rimraf node_modules",
     "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json"
+    "lint": "tslint -p tsconfig.json",
+    "commit": "git-cz"
   },
   "keywords": [],
   "author": "",
