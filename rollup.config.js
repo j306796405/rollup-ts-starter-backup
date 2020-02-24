@@ -19,8 +19,8 @@ export default {
 
     output: [{
         format: 'umd',
-        name: 'AnyTouch',
-        file: `./dist/any-touch.umd.js`,
+        name: 'rollupTsStarter',
+        file: `./dist/rollup-ts-starter.umd.js`,
         sourcemap: true,
     }]
 };
